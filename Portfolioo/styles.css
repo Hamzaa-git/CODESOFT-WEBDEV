@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #030303;
+    color: white;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1.5rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#intro {
+    background-color: #6C7A89;
+    color: white;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+#intro h1 {
+    font-size: 3rem;
+}
+
+#intro span {
+    color: #000000;
+}
+
+#intro .btn {
+    background-color: #3498db;
+    color: white;
+    padding: 0.75rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#about {
+    margin: 4rem 0;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.profile-photo {
+    margin: 1rem 0;
+}
+
+.profile-photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+#projects {
+    margin: 4rem 0;
+    text-align: center;
+}
+
+.project-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.project {
+    background-color: white;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    width: 200px;
+    border-radius: 8px;
+}
+
+#contact {
+    margin: 4rem 0;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
